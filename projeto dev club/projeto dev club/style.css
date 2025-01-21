@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.insta-logo {
+  margin-bottom: 20px;
+}
+.img-phone {
+  position: relative;
+  margin-bottom: 400px;
+  margin-left: 600px;
+  width: 400px;
+}
+input {
+  height: 36px;
+  margin-top: 36px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: #262626;
+}
+.img-1 {
+  width: 300px;
+  position: absolute;
+}
+
+.img-insta {
+  height: 350px;
+  position: absolute;
+  left: 100px;
+  top: 15px;
+}
+
+.caixa-form {
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  padding: 50px 60px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+}
+button {
+  background-color: #0095f6;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.login-facebook {
+  color: #385185;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.Esqueceu-senha {
+  color: #385185;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
