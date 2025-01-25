@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Results Summary Component</title>
+  </head>
+
+  <body>
+    <section id="result-summary-container">
+      <div class="your-result-container">
+        <h2 class="title-text">Your Result</h2>
+        <div class="result-number-circle">
+          <p class="large-number">76</p>
+          <p class="small-number">of 100</p>
+        </div>
+        <div class="performance-text">
+          <h3>Great</h3>
+          <p>
+            Your performance exceed 65% of the people conducting the test here!
+          </p>
+        </div>
+      </div>
+      <div class="summary-container">
+        <h2>Summary</h2>
+        <div class="stats-container">
+          <div id="reaction" class="result">
+            <div class="stat-img-container">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="lightning bolt"
+              />
+              <span class="red-text p-left">Reaction</span>
+            </div>
+            <div class="stat-score-container">
+              <p>80 <span class="light-text">/ 100</span></p>
+            </div>
+          </div>
+          <div id="memory" class="result">
+            <div class="stat-img-container">
+              <img src="./assets/images/icon-memory.svg" alt="lightning bolt" />
+              <span class="yellow-text p-left">Memory</span>
+            </div>
+            <div class="stat-score-container">
+              <p>92 <span class="light-text">/ 100</span></p>
+            </div>
+          </div>
+          <div id="verbal" class="result">
+            <div class="stat-img-container">
+              <img src="./assets/images/icon-verbal.svg alt="lightning bolt" />
+              <span class="green-text p-left">Verbal</span>
+            </div>
+            <div class="stat-score-container">
+              <p>61 <span class="light-text">/ 100</span></p>
+            </div>
+          </div>
+          <div id="visual" class="result">
+            <div class="stat-img-container">
+              <img src="./assets/images/icon-visual.svg" alt="lightning bolt" />
+              <span class="purple-text p-left">Visual</span>
+            </div>
+            <div class="stat-score-container">
+              <p>73 <span class="light-text">/ 100</span></p>
+            </div>
+          </div>
+          <button id="btn">Continue</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
